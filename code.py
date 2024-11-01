@@ -1,3 +1,6 @@
+# Set the page configuration to wide
+st.set_page_config(layout="wide")
+
 import pandas as pd
 import re
 import gensim
@@ -21,10 +24,6 @@ import plotly.graph_objects as go
 from mtranslate import translate # type: ignore
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
-
-# Set the page configuration to wide
-st.set_page_config(layout="wide")
 
 st.markdown("""
     <style>
